@@ -3,5 +3,6 @@
 <%= dose.ingredient.name %> - <%= dose.description %>
 <% end %>
 <%= link_to 'Add Dose', new_cocktail_dose_path(@cocktail) %>
+<%= link_to 'Back', cocktail_path(@cocktail) %>
 
 
